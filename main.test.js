@@ -2,10 +2,39 @@
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
 
+let x = 3;
 
+function double() {
+  x = x * 2;
+}
 
+console.log(x);
 
- 
+y = 10;
+function triple() {
+  y = y * 3;
+}
+
+z = 4;
+function square(){
+  z = z * z;
+}
+
+let greeting = 'hello';
+let firstName = 'Fernando';
+let callStatus = 'ringing';
+
+function beNice() {
+  greeting = greeting + ' ' + firstName + '.'; 
+}
+
+function changeName() {
+  firstName = 'Danger';
+}
+
+function hangUp() {
+  callStatus = 'call ended';
+}
 
 /*********************************************************************************************************************
 
